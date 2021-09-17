@@ -142,7 +142,7 @@ namespace Lesson15
             string firstName = Console.ReadLine();
             System.Console.WriteLine("Enter Middle Name : ");
             string middleName = Console.ReadLine();
-            System.Console.WriteLine("Enter BirthDay MM/DD/YYYY (forExaple:10/25/2021) : ");
+            System.Console.WriteLine("Enter BirthDay DD/MM/YYYY (forExaple:25/10/2021) : ");
             DateTime birthDate = DateTime.Parse(Console.ReadLine());
             return new Person(firstName, lastName, middleName, birthDate);
         }
